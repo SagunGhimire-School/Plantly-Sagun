@@ -1,0 +1,772 @@
+﻿{
+  "files": [
+    {
+      "path": "datasets/credits.yaml",
+      "sha256": "1eb24ea6d2b34c67cf18eb07bad37ce41b237cd96c0f54a1109661c2ac45c9f6",
+      "exact_match": false,
+      "lf_match": true,
+      "records": 2,
+      "ids": [
+        "CRED-COMPOST",
+        "CRED-LEGUME"
+      ],
+      "duplicate_ids": false,
+      "fields": [
+        "id",
+        "k2o_lb_per_cu_yd",
+        "kind",
+        "max_cu_yd_per_1000sqft",
+        "n_lb_available_per_cu_yd",
+        "n_lb_per_1000sqft",
+        "p2o5_lb_per_cu_yd",
+        "source",
+        "verified"
+      ]
+    },
+    {
+      "path": "datasets/crops.yaml",
+      "sha256": "286e135bff904017e1d59493128210d8cd5dcfd1a3eb0e554f1cbd1b6de87d18",
+      "exact_match": false,
+      "lf_match": true,
+      "records": 21,
+      "ids": [
+        "tomato",
+        "pepper",
+        "eggplant",
+        "potato",
+        "cabbage",
+        "broccoli",
+        "collards",
+        "kale",
+        "squash",
+        "cucumber",
+        "watermelon",
+        "bush_bean",
+        "southern_pea",
+        "snap_pea",
+        "onion",
+        "garlic",
+        "sweet_corn",
+        "lettuce",
+        "carrot",
+        "okra",
+        "sweet_potato"
+      ],
+      "duplicate_ids": false,
+      "fields": [
+        "family",
+        "id",
+        "n_demand",
+        "n_need_lb_per_1000sqft",
+        "name",
+        "source",
+        "target_ph",
+        "verified"
+      ]
+    },
+    {
+      "path": "datasets/lime_table.yaml",
+      "sha256": "2630cfab0ace49b705c56af899914c43c636d0dcbcfdd9aa213a263c10573c9d",
+      "exact_match": false,
+      "lf_match": true,
+      "records": 15,
+      "ids": [
+        "LIME-SANDY-01",
+        "LIME-SANDY-02",
+        "LIME-SANDY-03",
+        "LIME-SANDY-04",
+        "LIME-SANDY-05",
+        "LIME-LOAM-01",
+        "LIME-LOAM-02",
+        "LIME-LOAM-03",
+        "LIME-LOAM-04",
+        "LIME-LOAM-05",
+        "LIME-CLAY-01",
+        "LIME-CLAY-02",
+        "LIME-CLAY-03",
+        "LIME-CLAY-04",
+        "LIME-CLAY-05"
+      ],
+      "duplicate_ids": false,
+      "fields": [
+        "id",
+        "lime_lb_per_1000sqft",
+        "ph_max",
+        "ph_min",
+        "soil_texture",
+        "source",
+        "target_ph",
+        "verified"
+      ]
+    },
+    {
+      "path": "datasets/nutrient_recs.yaml",
+      "sha256": "c74746b564baa676b8fae224ae120536a4d4fa973c031cec5f3792985aed5c03",
+      "exact_match": false,
+      "lf_match": true,
+      "records": 8,
+      "ids": [
+        "NUT-P2O5-HEAVY",
+        "NUT-P2O5-MEDIUM",
+        "NUT-P2O5-LIGHT",
+        "NUT-P2O5-FIXER",
+        "NUT-K2O-HEAVY",
+        "NUT-K2O-MEDIUM",
+        "NUT-K2O-LIGHT",
+        "NUT-K2O-FIXER"
+      ],
+      "duplicate_ids": false,
+      "fields": [
+        "id",
+        "lb_per_1000sqft",
+        "n_demand",
+        "nutrient",
+        "source",
+        "verified"
+      ]
+    },
+    {
+      "path": "datasets/practices.yaml",
+      "sha256": "4437a491b68662ec7073f2cf25c202f3b74506ed4126d2e35cae05f5ce644841",
+      "exact_match": false,
+      "lf_match": true,
+      "records": 13,
+      "ids": [
+        "PRAC-SCOUT-HORNWORM",
+        "PRAC-EARLY-BLIGHT",
+        "PRAC-CABBAGE-WORMS",
+        "PRAC-SQUASH-BUGS",
+        "PRAC-VINE-BORER",
+        "PRAC-BEAN-BEETLE",
+        "PRAC-CUCUMBER-BEETLE",
+        "PRAC-FLEA-BEETLE",
+        "PRAC-HARLEQUIN-BUG",
+        "PRAC-ONION-THRIPS",
+        "PRAC-WHITE-ROT",
+        "PRAC-SOUTHERN-BLIGHT",
+        "PRAC-ROOT-KNOT"
+      ],
+      "duplicate_ids": false,
+      "fields": [
+        "crops",
+        "id",
+        "problems",
+        "source",
+        "text",
+        "verified"
+      ]
+    },
+    {
+      "path": "datasets/problems.yaml",
+      "sha256": "7c0dfb4f386a51980e45052267079c529f01a54738041ddfa66d66d2f8ee5cea",
+      "exact_match": false,
+      "lf_match": true,
+      "records": 13,
+      "ids": [
+        "early-blight",
+        "tomato-hornworm",
+        "cabbage-worms",
+        "squash-bugs",
+        "squash-vine-borer",
+        "mexican-bean-beetle",
+        "cucumber-beetle",
+        "flea-beetle",
+        "harlequin-bug",
+        "onion-thrips",
+        "white-rot",
+        "southern-blight",
+        "root-knot-nematode"
+      ],
+      "duplicate_ids": false,
+      "fields": [
+        "affects_families",
+        "id",
+        "kind",
+        "name",
+        "rotation_helps",
+        "source",
+        "verified"
+      ]
+    },
+    {
+      "path": "datasets/products.yaml",
+      "sha256": "b6bd745366bd8cb84ad510b296bc9b1f539c44e36856ee4d79b21adab7c6fed3",
+      "exact_match": false,
+      "lf_match": true,
+      "records": 5,
+      "ids": [
+        "fert-10-10-10",
+        "urea-46-0-0",
+        "tsp-0-46-0",
+        "mop-0-0-60",
+        "ag-lime"
+      ],
+      "duplicate_ids": false,
+      "fields": [
+        "bag_lb",
+        "id",
+        "k2o_pct",
+        "n_pct",
+        "name",
+        "p2o5_pct",
+        "price_usd_per_bag",
+        "role",
+        "type",
+        "verified"
+      ]
+    },
+    {
+      "path": "datasets/rotation_rules.yaml",
+      "sha256": "754d1fff8dc6aa9581ecd28b53878cf50a12ef681f4177669e096330ece343b9",
+      "exact_match": false,
+      "lf_match": true,
+      "records": 3,
+      "ids": [
+        "ROT-01",
+        "ROT-02",
+        "ROT-03"
+      ],
+      "duplicate_ids": false,
+      "fields": [
+        "after_demand",
+        "id",
+        "kind",
+        "message",
+        "prefer_demand",
+        "severity",
+        "source",
+        "verified",
+        "years_back"
+      ]
+    },
+    {
+      "path": "datasets/soil_test_levels.yaml",
+      "sha256": "15cab523bb399ed635447a3244864941b41523ef4b9d11520a2559e6c2c4086f",
+      "exact_match": false,
+      "lf_match": true,
+      "records": 2,
+      "ids": [
+        "STL-P",
+        "STL-K"
+      ],
+      "duplicate_ids": false,
+      "fields": [
+        "extraction_method",
+        "id",
+        "nutrient",
+        "source",
+        "upper_bounds_ppm",
+        "verified"
+      ]
+    },
+    {
+      "path": "fixtures/beginner_grower.json",
+      "sha256": "c63b707929a175c54aadb5b32b6e4e615e6d6688d8d7e7a544445ae0d8375e6d",
+      "exact_match": false,
+      "lf_match": true,
+      "records": 1,
+      "ids": [],
+      "duplicate_ids": false,
+      "fields": [
+        "compost_available_cu_yd",
+        "compost_price_usd_per_cu_yd",
+        "crops_needed",
+        "name",
+        "plots",
+        "price_overrides"
+      ]
+    },
+    {
+      "path": "fixtures/demo_grower.json",
+      "sha256": "47c74b7002af01dfb5c75dea536cb00c7ebbdbb287195da14fc5661828b34655",
+      "exact_match": false,
+      "lf_match": true,
+      "records": 1,
+      "ids": [],
+      "duplicate_ids": false,
+      "fields": [
+        "compost_available_cu_yd",
+        "compost_price_usd_per_cu_yd",
+        "crops_needed",
+        "name",
+        "plots",
+        "price_overrides"
+      ]
+    },
+    {
+      "path": "fixtures/diverse_farm.json",
+      "sha256": "77f8539ddc4069c958b426964936ed86072313dee23fb1be734e09178ac7aaee",
+      "exact_match": false,
+      "lf_match": true,
+      "records": 1,
+      "ids": [],
+      "duplicate_ids": false,
+      "fields": [
+        "compost_available_cu_yd",
+        "compost_price_usd_per_cu_yd",
+        "crops_needed",
+        "name",
+        "plots",
+        "price_overrides"
+      ]
+    },
+    {
+      "path": "fixtures/high_input_grower.json",
+      "sha256": "93473918ed1af7d303c2adad856d32e2d128f390a26b9bfc26a7aa4d1cddf5d1",
+      "exact_match": false,
+      "lf_match": true,
+      "records": 1,
+      "ids": [],
+      "duplicate_ids": false,
+      "fields": [
+        "compost_available_cu_yd",
+        "compost_price_usd_per_cu_yd",
+        "crops_needed",
+        "name",
+        "plots",
+        "price_overrides"
+      ]
+    },
+    {
+      "path": "research/source_notes.yaml",
+      "sha256": "aec138f14ecffeaf7a92925f222a00d8becf30be5d6b7baf2c3f696ed745168c",
+      "exact_match": false,
+      "lf_match": true,
+      "records": 122,
+      "ids": [
+        "NOTE-ROT-001",
+        "NOTE-ROT-002",
+        "NOTE-ROT-003",
+        "NOTE-ROT-004",
+        "NOTE-ROT-005",
+        "NOTE-ROT-006",
+        "NOTE-ROT-007",
+        "NOTE-ROT-008",
+        "NOTE-ROT-009",
+        "NOTE-ROT-010",
+        "NOTE-ROT-011",
+        "NOTE-ROT-012",
+        "NOTE-ROT-013",
+        "NOTE-ROT-014",
+        "NOTE-ROT-015",
+        "NOTE-INS-001",
+        "NOTE-INS-002",
+        "NOTE-INS-003",
+        "NOTE-INS-004",
+        "NOTE-INS-005",
+        "NOTE-INS-006",
+        "NOTE-FERT-001",
+        "NOTE-FERT-002",
+        "NOTE-FERT-003",
+        "NOTE-FERT-004",
+        "NOTE-FERT-005",
+        "NOTE-FERT-006",
+        "NOTE-OSU-001",
+        "NOTE-OSU-002",
+        "NOTE-OSU-003",
+        "NOTE-OSU-004",
+        "NOTE-OSU-005",
+        "NOTE-OSU-006",
+        "NOTE-OSU-007",
+        "NOTE-CC-001",
+        "NOTE-CC-002",
+        "NOTE-CC-003",
+        "NOTE-BSBC-001",
+        "NOTE-BSBC-002",
+        "NOTE-BSBC-003",
+        "NOTE-BSBC-004",
+        "NOTE-BSBC-005",
+        "NOTE-BSBC-006",
+        "NOTE-BSBC-007",
+        "NOTE-BSBC-008",
+        "NOTE-NRCS-001",
+        "NOTE-NRCS-002",
+        "NOTE-NRCS-003",
+        "NOTE-EB-001",
+        "NOTE-EB-002",
+        "NOTE-EB-003",
+        "NOTE-EB-004",
+        "NOTE-EB-005",
+        "NOTE-HW-001",
+        "NOTE-HW-002",
+        "NOTE-CW-001",
+        "NOTE-CW-002",
+        "NOTE-SB-001",
+        "NOTE-SB-002",
+        "NOTE-SB-003",
+        "NOTE-SVB-001",
+        "NOTE-SVB-002",
+        "NOTE-MBB-001",
+        "NOTE-INT-001",
+        "NOTE-INT-002",
+        "NOTE-INT-003",
+        "NOTE-INT-004",
+        "NOTE-INT-005",
+        "NOTE-INT-006",
+        "NOTE-SOU-001",
+        "NOTE-SOU-002",
+        "NOTE-SOU-003",
+        "NOTE-SOU-004",
+        "NOTE-SOU-005",
+        "NOTE-SOU-006",
+        "NOTE-SOU-007",
+        "NOTE-ROT-016",
+        "NOTE-ROT-017",
+        "NOTE-ROT-018",
+        "NOTE-ROT-019",
+        "NOTE-ROT-020",
+        "NOTE-ROT-021",
+        "NOTE-FERT-007",
+        "NOTE-INS-007",
+        "NOTE-INS-008",
+        "NOTE-BSBC-009",
+        "NOTE-CC-004",
+        "NOTE-CC-005",
+        "NOTE-CC-006",
+        "NOTE-CC-007",
+        "NOTE-CC-008",
+        "NOTE-CC-009",
+        "NOTE-CC-010",
+        "NOTE-CC-011",
+        "NOTE-CC-012",
+        "NOTE-CC-013",
+        "NOTE-CC-014",
+        "NOTE-CB-001",
+        "NOTE-CB-002",
+        "NOTE-FB-001",
+        "NOTE-FB-002",
+        "NOTE-HB-001",
+        "NOTE-HB-002",
+        "NOTE-OT-001",
+        "NOTE-OT-002",
+        "NOTE-WR-001",
+        "NOTE-RKN-001",
+        "NOTE-RKN-002",
+        "NOTE-RKN-003",
+        "NOTE-OKRA-001",
+        "NOTE-OKRA-002",
+        "NOTE-SP-001",
+        "NOTE-SP-002",
+        "NOTE-ENG-001",
+        "NOTE-ENG-002",
+        "NOTE-ENG-003",
+        "NOTE-ENG-004",
+        "NOTE-ENG-005",
+        "NOTE-ENG-006",
+        "NOTE-ENG-007",
+        "NOTE-ENG-008",
+        "NOTE-ENG-009"
+      ],
+      "duplicate_ids": false,
+      "fields": [
+        "id",
+        "note",
+        "page",
+        "source",
+        "topics",
+        "verified"
+      ]
+    },
+    {
+      "path": "rule_reviews/sources.yaml",
+      "sha256": "9b71b8f1c736e3aec688cda522c6ddfca25bb69eae575b1125908c49912cb3bc",
+      "exact_match": false,
+      "lf_match": true,
+      "records": 40,
+      "ids": [
+        "SRC-PLACEHOLDER",
+        "SRC-SARE-ROTATION",
+        "SRC-SARE-BSBC",
+        "SRC-SARE-MCCP",
+        "SRC-NRCS-328",
+        "SRC-OSU-EM9235",
+        "SRC-UMN-EARLYBLIGHT",
+        "SRC-ISU-TOMATOBLIGHT",
+        "SRC-CSU-EARLYBLIGHT",
+        "SRC-UCIPM-HORNWORM",
+        "SRC-ILL-HORNWORM",
+        "SRC-UNH-CABBAGEWORM",
+        "SRC-USU-CABBAGEWORM",
+        "SRC-UMN-SQUASHBUG",
+        "SRC-NMSU-SQUASHBUG",
+        "SRC-UCONN-SVB",
+        "SRC-UGA-SVB",
+        "SRC-CORNELL-MBB",
+        "SRC-UCONN-ROTATION",
+        "SRC-CLEMSON-ROTATION",
+        "SRC-WSU-ROTATION",
+        "SRC-CLEMSON-RKN",
+        "SRC-CLEMSON-OKRA",
+        "SRC-CLEMSON-SWEETPOTATO",
+        "SRC-UVM-CUCBEETLE",
+        "SRC-UMN-FLEABEETLE",
+        "SRC-WVU-HARLEQUIN",
+        "SRC-UMASS-THRIPS",
+        "SRC-WSU-WHITEROT",
+        "SRC-EORGANIC-BUCKWHEAT",
+        "SRC-CLEMSON-SOILTEST",
+        "SRC-CLEMSON-FERTVEG",
+        "SRC-CLEMSON-PH",
+        "SRC-SERA6-FS5",
+        "SRC-UGA-C963",
+        "SRC-UW-NCREDIT",
+        "SRC-WSU-COMPOST",
+        "SRC-UCONN-LIME",
+        "SRC-DTN-PRICES",
+        "SRC-GROWER-LAB-REPORT"
+      ],
+      "duplicate_ids": false,
+      "fields": [
+        "id",
+        "publisher",
+        "title",
+        "url",
+        "verified",
+        "year"
+      ]
+    }
+  ],
+  "scientific_approval": false,
+  "sources": [
+    {
+      "id": "SRC-PLACEHOLDER",
+      "url": "",
+      "legacy_verified": false,
+      "license": "unknown"
+    },
+    {
+      "id": "SRC-SARE-ROTATION",
+      "url": "https://www.sare.org/resources/crop-rotation-on-organic-farms/",
+      "legacy_verified": false,
+      "license": "unknown"
+    },
+    {
+      "id": "SRC-SARE-BSBC",
+      "url": "https://www.sare.org/resources/building-soils-for-better-crops/",
+      "legacy_verified": false,
+      "license": "unknown"
+    },
+    {
+      "id": "SRC-SARE-MCCP",
+      "url": "https://www.sare.org/resources/managing-cover-crops-profitably-3rd-edition/",
+      "legacy_verified": false,
+      "license": "unknown"
+    },
+    {
+      "id": "SRC-NRCS-328",
+      "url": "https://www.nrcs.usda.gov/sites/default/files/2022-09/Conservation_Crop_Rotation_328_CPS.pdf",
+      "legacy_verified": false,
+      "license": "unknown"
+    },
+    {
+      "id": "SRC-OSU-EM9235",
+      "url": "https://extension.oregonstate.edu/sites/default/files/documents/em9235.pdf",
+      "legacy_verified": false,
+      "license": "unknown"
+    },
+    {
+      "id": "SRC-UMN-EARLYBLIGHT",
+      "url": "https://extension.umn.edu/disease-management/early-blight-tomato-and-potato",
+      "legacy_verified": false,
+      "license": "unknown"
+    },
+    {
+      "id": "SRC-ISU-TOMATOBLIGHT",
+      "url": "https://yardandgarden.extension.iastate.edu/faq/how-can-i-prevent-blight-my-tomatoes",
+      "legacy_verified": false,
+      "license": "unknown"
+    },
+    {
+      "id": "SRC-CSU-EARLYBLIGHT",
+      "url": "https://extension.colostate.edu/resource/tomato-early-blight/",
+      "legacy_verified": false,
+      "license": "unknown"
+    },
+    {
+      "id": "SRC-UCIPM-HORNWORM",
+      "url": "https://ipm.ucanr.edu/PMG/GARDEN/VEGES/PESTS/hornworm.html",
+      "legacy_verified": false,
+      "license": "unknown"
+    },
+    {
+      "id": "SRC-ILL-HORNWORM",
+      "url": "https://extension.illinois.edu/gardening/hornworm",
+      "legacy_verified": false,
+      "license": "unknown"
+    },
+    {
+      "id": "SRC-UNH-CABBAGEWORM",
+      "url": "https://extension.unh.edu/resources/files/Resource000551_Rep573.pdf",
+      "legacy_verified": false,
+      "license": "unknown"
+    },
+    {
+      "id": "SRC-USU-CABBAGEWORM",
+      "url": "https://extension.usu.edu/pests/ipm/notes_ag/veg-imported-cabbage-worm",
+      "legacy_verified": false,
+      "license": "unknown"
+    },
+    {
+      "id": "SRC-UMN-SQUASHBUG",
+      "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/yard-and-garden-insects/squash-bugs",
+      "legacy_verified": false,
+      "license": "unknown"
+    },
+    {
+      "id": "SRC-NMSU-SQUASHBUG",
+      "url": "https://pubs.nmsu.edu/_h/H183/index.html",
+      "legacy_verified": false,
+      "license": "unknown"
+    },
+    {
+      "id": "SRC-UCONN-SVB",
+      "url": "https://homegarden.cahnr.uconn.edu/squash-vine-borer/",
+      "legacy_verified": false,
+      "license": "unknown"
+    },
+    {
+      "id": "SRC-UGA-SVB",
+      "url": "https://fieldreport.caes.uga.edu/news/squash-vine-borers-on-gardeners-hit-list/",
+      "legacy_verified": false,
+      "license": "unknown"
+    },
+    {
+      "id": "SRC-CORNELL-MBB",
+      "url": "https://cals.cornell.edu/integrated-pest-management/outreach-education/fact-sheets/mexican-bean-beetle-epilachna-varivestis-vegetable-ipm-fact-sheet",
+      "legacy_verified": false,
+      "license": "unknown"
+    },
+    {
+      "id": "SRC-UCONN-ROTATION",
+      "url": "https://ipm.cahnr.uconn.edu/having-problems-controlling-vegetable-crop-diseases-try-rotation",
+      "legacy_verified": false,
+      "license": "unknown"
+    },
+    {
+      "id": "SRC-CLEMSON-ROTATION",
+      "url": "https://hgic.clemson.edu/factsheet/crop-rotation/",
+      "legacy_verified": false,
+      "license": "unknown"
+    },
+    {
+      "id": "SRC-WSU-ROTATION",
+      "url": "https://wpcdn.web.wsu.edu/extension/uploads/sites/68/2015/08/Crop-Rotation-in-Home-Gardens.pdf",
+      "legacy_verified": false,
+      "license": "unknown"
+    },
+    {
+      "id": "SRC-CLEMSON-RKN",
+      "url": "https://hgic.clemson.edu/factsheet/root-knot-nematodes-in-the-vegetable-garden/",
+      "legacy_verified": false,
+      "license": "unknown"
+    },
+    {
+      "id": "SRC-CLEMSON-OKRA",
+      "url": "https://hgic.clemson.edu/factsheet/okra/",
+      "legacy_verified": false,
+      "license": "unknown"
+    },
+    {
+      "id": "SRC-CLEMSON-SWEETPOTATO",
+      "url": "https://hgic.clemson.edu/factsheet/sweet-potato/",
+      "legacy_verified": false,
+      "license": "unknown"
+    },
+    {
+      "id": "SRC-UVM-CUCBEETLE",
+      "url": "https://www.uvm.edu/news/extension/striped-cucumber-beetle",
+      "legacy_verified": false,
+      "license": "unknown"
+    },
+    {
+      "id": "SRC-UMN-FLEABEETLE",
+      "url": "https://extension.umn.edu/yard-and-garden-insects/flea-beetles",
+      "legacy_verified": false,
+      "license": "unknown"
+    },
+    {
+      "id": "SRC-WVU-HARLEQUIN",
+      "url": "https://extension.wvu.edu/lawn-gardening-pests/pests/harlequin-bug",
+      "legacy_verified": false,
+      "license": "unknown"
+    },
+    {
+      "id": "SRC-UMASS-THRIPS",
+      "url": "https://www.umass.edu/agriculture-food-environment/vegetable/fact-sheets/onion-thrips",
+      "legacy_verified": false,
+      "license": "unknown"
+    },
+    {
+      "id": "SRC-WSU-WHITEROT",
+      "url": "https://hortsense.cahnrs.wsu.edu/fact-sheet/onions-garlic-white-rot/",
+      "legacy_verified": false,
+      "license": "unknown"
+    },
+    {
+      "id": "SRC-EORGANIC-BUCKWHEAT",
+      "url": "https://eorganic.org/node/467",
+      "legacy_verified": false,
+      "license": "unknown"
+    },
+    {
+      "id": "SRC-CLEMSON-SOILTEST",
+      "url": "https://lgpress.clemson.edu/publication/interpreting-routine-soil-tests/",
+      "legacy_verified": false,
+      "license": "unknown"
+    },
+    {
+      "id": "SRC-CLEMSON-FERTVEG",
+      "url": "https://hgic.clemson.edu/factsheet/fertilizing-vegetables/",
+      "legacy_verified": false,
+      "license": "unknown"
+    },
+    {
+      "id": "SRC-CLEMSON-PH",
+      "url": "https://hgic.clemson.edu/factsheet/changing-the-ph-of-your-soil/",
+      "legacy_verified": false,
+      "license": "unknown"
+    },
+    {
+      "id": "SRC-SERA6-FS5",
+      "url": "https://aesl.ces.uga.edu/sera6/FACT/SERA-6-FS-5.pdf",
+      "legacy_verified": false,
+      "license": "unknown"
+    },
+    {
+      "id": "SRC-UGA-C963",
+      "url": "https://fieldreport.caes.uga.edu/publications/C963",
+      "legacy_verified": false,
+      "license": "unknown"
+    },
+    {
+      "id": "SRC-UW-NCREDIT",
+      "url": "https://corn.aae.wisc.edu/Management/pdfs/L025_FastFacts.pdf",
+      "legacy_verified": false,
+      "license": "unknown"
+    },
+    {
+      "id": "SRC-WSU-COMPOST",
+      "url": "https://wpcdn.web.wsu.edu/extension/uploads/sites/68/2016/01/2016-WSU-Recommended-Compost-BMP-guide-for-farmers-NEW-_1_22_16-Copy.pdf",
+      "legacy_verified": false,
+      "license": "unknown"
+    },
+    {
+      "id": "SRC-UCONN-LIME",
+      "url": "https://publications.extension.uconn.edu/2013/07/15/liming-soils",
+      "legacy_verified": false,
+      "license": "unknown"
+    },
+    {
+      "id": "SRC-DTN-PRICES",
+      "url": "https://www.dtnpf.com/agriculture/web/ag/crops/article/2026/10/21/uan32-uan28-anhydrous-lead-prices",
+      "legacy_verified": false,
+      "license": "unknown"
+    },
+    {
+      "id": "SRC-GROWER-LAB-REPORT",
+      "url": "",
+      "legacy_verified": true,
+      "license": "unknown"
+    }
+  ]
+}

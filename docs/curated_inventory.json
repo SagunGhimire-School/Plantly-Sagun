@@ -1,0 +1,1344 @@
+{
+  "datasets/credits.yaml": {
+    "sha256": "ba0f2c63c4dc6d21c2b81a9df24e395b3123065beefa618edab83cff2f45b475",
+    "records": 2,
+    "fields": {
+      "$": [
+        "list"
+      ],
+      "$[]": [
+        "dict"
+      ],
+      "$[].id": [
+        "str"
+      ],
+      "$[].k2o_lb_per_cu_yd": [
+        "float"
+      ],
+      "$[].kind": [
+        "str"
+      ],
+      "$[].max_cu_yd_per_1000sqft": [
+        "float"
+      ],
+      "$[].n_lb_available_per_cu_yd": [
+        "float"
+      ],
+      "$[].n_lb_per_1000sqft": [
+        "float"
+      ],
+      "$[].p2o5_lb_per_cu_yd": [
+        "float"
+      ],
+      "$[].source": [
+        "str"
+      ],
+      "$[].verified": [
+        "bool"
+      ]
+    },
+    "ids": [
+      "CRED-COMPOST",
+      "CRED-LEGUME"
+    ],
+    "source_refs": {
+      "CRED-COMPOST": "SRC-WSU-COMPOST",
+      "CRED-LEGUME": "SRC-UW-NCREDIT"
+    },
+    "missing_source": []
+  },
+  "datasets/crops.yaml": {
+    "sha256": "46cdeebfa3ace5e80676dbc2f7ac8f2dc2b703accd702d81bf6be394ef7af282",
+    "records": 21,
+    "fields": {
+      "$": [
+        "list"
+      ],
+      "$[]": [
+        "dict"
+      ],
+      "$[].family": [
+        "str"
+      ],
+      "$[].id": [
+        "str"
+      ],
+      "$[].n_demand": [
+        "str"
+      ],
+      "$[].n_need_lb_per_1000sqft": [
+        "float"
+      ],
+      "$[].name": [
+        "str"
+      ],
+      "$[].source": [
+        "str"
+      ],
+      "$[].target_ph": [
+        "float"
+      ],
+      "$[].verified": [
+        "bool"
+      ]
+    },
+    "ids": [
+      "tomato",
+      "pepper",
+      "eggplant",
+      "potato",
+      "cabbage",
+      "broccoli",
+      "collards",
+      "kale",
+      "squash",
+      "cucumber",
+      "watermelon",
+      "bush_bean",
+      "southern_pea",
+      "snap_pea",
+      "onion",
+      "garlic",
+      "sweet_corn",
+      "lettuce",
+      "carrot",
+      "okra",
+      "sweet_potato"
+    ],
+    "source_refs": {
+      "tomato": "SRC-CLEMSON-FERTVEG",
+      "pepper": "SRC-CLEMSON-FERTVEG",
+      "eggplant": "SRC-CLEMSON-FERTVEG",
+      "potato": "SRC-UGA-C963",
+      "cabbage": "SRC-CLEMSON-FERTVEG",
+      "broccoli": "SRC-CLEMSON-FERTVEG",
+      "collards": "SRC-CLEMSON-FERTVEG",
+      "kale": "SRC-CLEMSON-FERTVEG",
+      "squash": "SRC-CLEMSON-FERTVEG",
+      "cucumber": "SRC-CLEMSON-FERTVEG",
+      "watermelon": "SRC-CLEMSON-FERTVEG",
+      "bush_bean": "SRC-PLACEHOLDER",
+      "southern_pea": "SRC-PLACEHOLDER",
+      "snap_pea": "SRC-PLACEHOLDER",
+      "onion": "SRC-CLEMSON-FERTVEG",
+      "garlic": "SRC-CLEMSON-FERTVEG",
+      "sweet_corn": "SRC-CLEMSON-FERTVEG",
+      "lettuce": "SRC-CLEMSON-FERTVEG",
+      "carrot": "SRC-CLEMSON-FERTVEG",
+      "okra": "SRC-CLEMSON-FERTVEG",
+      "sweet_potato": "SRC-CLEMSON-FERTVEG"
+    },
+    "missing_source": []
+  },
+  "datasets/lime_table.yaml": {
+    "sha256": "f08a956e03bfe57e0917ec0d6c459aba26e6f124428c8c0ad4c3b0072335e72d",
+    "records": 15,
+    "fields": {
+      "$": [
+        "list"
+      ],
+      "$[]": [
+        "dict"
+      ],
+      "$[].id": [
+        "str"
+      ],
+      "$[].lime_lb_per_1000sqft": [
+        "int"
+      ],
+      "$[].ph_max": [
+        "float"
+      ],
+      "$[].ph_min": [
+        "float"
+      ],
+      "$[].soil_texture": [
+        "str"
+      ],
+      "$[].source": [
+        "str"
+      ],
+      "$[].target_ph": [
+        "float"
+      ],
+      "$[].verified": [
+        "bool"
+      ]
+    },
+    "ids": [
+      "LIME-SANDY-01",
+      "LIME-SANDY-02",
+      "LIME-SANDY-03",
+      "LIME-SANDY-04",
+      "LIME-SANDY-05",
+      "LIME-LOAM-01",
+      "LIME-LOAM-02",
+      "LIME-LOAM-03",
+      "LIME-LOAM-04",
+      "LIME-LOAM-05",
+      "LIME-CLAY-01",
+      "LIME-CLAY-02",
+      "LIME-CLAY-03",
+      "LIME-CLAY-04",
+      "LIME-CLAY-05"
+    ],
+    "source_refs": {
+      "LIME-SANDY-01": "SRC-PLACEHOLDER",
+      "LIME-SANDY-02": "SRC-PLACEHOLDER",
+      "LIME-SANDY-03": "SRC-PLACEHOLDER",
+      "LIME-SANDY-04": "SRC-PLACEHOLDER",
+      "LIME-SANDY-05": "SRC-PLACEHOLDER",
+      "LIME-LOAM-01": "SRC-PLACEHOLDER",
+      "LIME-LOAM-02": "SRC-PLACEHOLDER",
+      "LIME-LOAM-03": "SRC-PLACEHOLDER",
+      "LIME-LOAM-04": "SRC-PLACEHOLDER",
+      "LIME-LOAM-05": "SRC-PLACEHOLDER",
+      "LIME-CLAY-01": "SRC-PLACEHOLDER",
+      "LIME-CLAY-02": "SRC-PLACEHOLDER",
+      "LIME-CLAY-03": "SRC-PLACEHOLDER",
+      "LIME-CLAY-04": "SRC-PLACEHOLDER",
+      "LIME-CLAY-05": "SRC-PLACEHOLDER"
+    },
+    "missing_source": []
+  },
+  "datasets/nutrient_recs.yaml": {
+    "sha256": "9b14c9e65ab1b5516b42662b43628989023edce987cda92eaa02dbdc60acad8f",
+    "records": 8,
+    "fields": {
+      "$": [
+        "list"
+      ],
+      "$[]": [
+        "dict"
+      ],
+      "$[].id": [
+        "str"
+      ],
+      "$[].lb_per_1000sqft": [
+        "dict"
+      ],
+      "$[].lb_per_1000sqft.high": [
+        "int"
+      ],
+      "$[].lb_per_1000sqft.low": [
+        "float"
+      ],
+      "$[].lb_per_1000sqft.medium": [
+        "float"
+      ],
+      "$[].lb_per_1000sqft.very_high": [
+        "int"
+      ],
+      "$[].lb_per_1000sqft.very_low": [
+        "float"
+      ],
+      "$[].n_demand": [
+        "str"
+      ],
+      "$[].nutrient": [
+        "str"
+      ],
+      "$[].source": [
+        "str"
+      ],
+      "$[].verified": [
+        "bool"
+      ]
+    },
+    "ids": [
+      "NUT-P2O5-HEAVY",
+      "NUT-P2O5-MEDIUM",
+      "NUT-P2O5-LIGHT",
+      "NUT-P2O5-FIXER",
+      "NUT-K2O-HEAVY",
+      "NUT-K2O-MEDIUM",
+      "NUT-K2O-LIGHT",
+      "NUT-K2O-FIXER"
+    ],
+    "source_refs": {
+      "NUT-P2O5-HEAVY": "SRC-CLEMSON-FERTVEG",
+      "NUT-P2O5-MEDIUM": "SRC-CLEMSON-FERTVEG",
+      "NUT-P2O5-LIGHT": "SRC-CLEMSON-FERTVEG",
+      "NUT-P2O5-FIXER": "SRC-CLEMSON-FERTVEG",
+      "NUT-K2O-HEAVY": "SRC-CLEMSON-FERTVEG",
+      "NUT-K2O-MEDIUM": "SRC-CLEMSON-FERTVEG",
+      "NUT-K2O-LIGHT": "SRC-CLEMSON-FERTVEG",
+      "NUT-K2O-FIXER": "SRC-CLEMSON-FERTVEG"
+    },
+    "missing_source": []
+  },
+  "datasets/practices.yaml": {
+    "sha256": "c0933b96b1d83ab54bb317a38332d21d2d99c79b951ff936b9b0cad3708d6975",
+    "records": 13,
+    "fields": {
+      "$": [
+        "list"
+      ],
+      "$[]": [
+        "dict"
+      ],
+      "$[].crops": [
+        "list"
+      ],
+      "$[].crops[]": [
+        "str"
+      ],
+      "$[].id": [
+        "str"
+      ],
+      "$[].problems": [
+        "list"
+      ],
+      "$[].problems[]": [
+        "str"
+      ],
+      "$[].source": [
+        "str"
+      ],
+      "$[].text": [
+        "str"
+      ],
+      "$[].verified": [
+        "bool"
+      ]
+    },
+    "ids": [
+      "PRAC-SCOUT-HORNWORM",
+      "PRAC-EARLY-BLIGHT",
+      "PRAC-CABBAGE-WORMS",
+      "PRAC-SQUASH-BUGS",
+      "PRAC-VINE-BORER",
+      "PRAC-BEAN-BEETLE",
+      "PRAC-CUCUMBER-BEETLE",
+      "PRAC-FLEA-BEETLE",
+      "PRAC-HARLEQUIN-BUG",
+      "PRAC-ONION-THRIPS",
+      "PRAC-WHITE-ROT",
+      "PRAC-SOUTHERN-BLIGHT",
+      "PRAC-ROOT-KNOT"
+    ],
+    "source_refs": {
+      "PRAC-SCOUT-HORNWORM": "SRC-UCIPM-HORNWORM",
+      "PRAC-EARLY-BLIGHT": "SRC-UMN-EARLYBLIGHT",
+      "PRAC-CABBAGE-WORMS": "SRC-USU-CABBAGEWORM",
+      "PRAC-SQUASH-BUGS": "SRC-NMSU-SQUASHBUG",
+      "PRAC-VINE-BORER": "SRC-UCONN-SVB",
+      "PRAC-BEAN-BEETLE": "SRC-CORNELL-MBB",
+      "PRAC-CUCUMBER-BEETLE": "SRC-UVM-CUCBEETLE",
+      "PRAC-FLEA-BEETLE": "SRC-UMN-FLEABEETLE",
+      "PRAC-HARLEQUIN-BUG": "SRC-WVU-HARLEQUIN",
+      "PRAC-ONION-THRIPS": "SRC-UMASS-THRIPS",
+      "PRAC-WHITE-ROT": "SRC-WSU-WHITEROT",
+      "PRAC-SOUTHERN-BLIGHT": "SRC-CLEMSON-ROTATION",
+      "PRAC-ROOT-KNOT": "SRC-CLEMSON-RKN"
+    },
+    "missing_source": []
+  },
+  "datasets/problems.yaml": {
+    "sha256": "7703e3e9643bcf7d929791213ebc3e58db22fa3c49311812ad2d24696b3564b7",
+    "records": 13,
+    "fields": {
+      "$": [
+        "list"
+      ],
+      "$[]": [
+        "dict"
+      ],
+      "$[].affects_families": [
+        "list"
+      ],
+      "$[].affects_families[]": [
+        "str"
+      ],
+      "$[].id": [
+        "str"
+      ],
+      "$[].kind": [
+        "str"
+      ],
+      "$[].name": [
+        "str"
+      ],
+      "$[].rotation_helps": [
+        "bool"
+      ],
+      "$[].source": [
+        "str"
+      ],
+      "$[].verified": [
+        "bool"
+      ]
+    },
+    "ids": [
+      "early-blight",
+      "tomato-hornworm",
+      "cabbage-worms",
+      "squash-bugs",
+      "squash-vine-borer",
+      "mexican-bean-beetle",
+      "cucumber-beetle",
+      "flea-beetle",
+      "harlequin-bug",
+      "onion-thrips",
+      "white-rot",
+      "southern-blight",
+      "root-knot-nematode"
+    ],
+    "source_refs": {
+      "early-blight": "SRC-UMN-EARLYBLIGHT",
+      "tomato-hornworm": "SRC-UCIPM-HORNWORM",
+      "cabbage-worms": "SRC-UNH-CABBAGEWORM",
+      "squash-bugs": "SRC-UMN-SQUASHBUG",
+      "squash-vine-borer": "SRC-UGA-SVB",
+      "mexican-bean-beetle": "SRC-CORNELL-MBB",
+      "cucumber-beetle": "SRC-UVM-CUCBEETLE",
+      "flea-beetle": "SRC-UMN-FLEABEETLE",
+      "harlequin-bug": "SRC-WVU-HARLEQUIN",
+      "onion-thrips": "SRC-UMASS-THRIPS",
+      "white-rot": "SRC-WSU-WHITEROT",
+      "southern-blight": "SRC-CLEMSON-ROTATION",
+      "root-knot-nematode": "SRC-CLEMSON-RKN"
+    },
+    "missing_source": []
+  },
+  "datasets/products.yaml": {
+    "sha256": "b3bfdcedd7ddd73618ff97b7c9749ea8cbada89867b3889810aa80b5ad06bea5",
+    "records": 5,
+    "fields": {
+      "$": [
+        "list"
+      ],
+      "$[]": [
+        "dict"
+      ],
+      "$[].bag_lb": [
+        "int"
+      ],
+      "$[].id": [
+        "str"
+      ],
+      "$[].k2o_pct": [
+        "int"
+      ],
+      "$[].n_pct": [
+        "int"
+      ],
+      "$[].name": [
+        "str"
+      ],
+      "$[].p2o5_pct": [
+        "int"
+      ],
+      "$[].price_usd_per_bag": [
+        "float",
+        "int"
+      ],
+      "$[].role": [
+        "NoneType",
+        "str"
+      ],
+      "$[].type": [
+        "str"
+      ],
+      "$[].verified": [
+        "bool"
+      ]
+    },
+    "ids": [
+      "fert-10-10-10",
+      "urea-46-0-0",
+      "tsp-0-46-0",
+      "mop-0-0-60",
+      "ag-lime"
+    ],
+    "source_refs": {},
+    "missing_source": [
+      "fert-10-10-10",
+      "urea-46-0-0",
+      "tsp-0-46-0",
+      "mop-0-0-60",
+      "ag-lime"
+    ]
+  },
+  "datasets/rotation_rules.yaml": {
+    "sha256": "7e557bd53b98bd25639247a90fa36d017bf3dbc42a5ae8dff5375cb4ed413740",
+    "records": 3,
+    "fields": {
+      "$": [
+        "list"
+      ],
+      "$[]": [
+        "dict"
+      ],
+      "$[].after_demand": [
+        "str"
+      ],
+      "$[].id": [
+        "str"
+      ],
+      "$[].kind": [
+        "str"
+      ],
+      "$[].message": [
+        "str"
+      ],
+      "$[].prefer_demand": [
+        "str"
+      ],
+      "$[].severity": [
+        "str"
+      ],
+      "$[].source": [
+        "str"
+      ],
+      "$[].verified": [
+        "bool"
+      ],
+      "$[].years_back": [
+        "int"
+      ]
+    },
+    "ids": [
+      "ROT-01",
+      "ROT-02",
+      "ROT-03"
+    ],
+    "source_refs": {
+      "ROT-01": "SRC-CLEMSON-ROTATION",
+      "ROT-02": "SRC-SARE-ROTATION",
+      "ROT-03": "SRC-SARE-ROTATION"
+    },
+    "missing_source": []
+  },
+  "datasets/soil_test_levels.yaml": {
+    "sha256": "01f9c05b83d8f28068d2cf0e6e03019f1f2c0918d7416e89de50d54c9098d990",
+    "records": 2,
+    "fields": {
+      "$": [
+        "list"
+      ],
+      "$[]": [
+        "dict"
+      ],
+      "$[].extraction_method": [
+        "str"
+      ],
+      "$[].id": [
+        "str"
+      ],
+      "$[].nutrient": [
+        "str"
+      ],
+      "$[].source": [
+        "str"
+      ],
+      "$[].upper_bounds_ppm": [
+        "dict"
+      ],
+      "$[].upper_bounds_ppm.high": [
+        "float",
+        "int"
+      ],
+      "$[].upper_bounds_ppm.low": [
+        "int"
+      ],
+      "$[].upper_bounds_ppm.medium": [
+        "int"
+      ],
+      "$[].upper_bounds_ppm.very_low": [
+        "int"
+      ],
+      "$[].verified": [
+        "bool"
+      ]
+    },
+    "ids": [
+      "STL-P",
+      "STL-K"
+    ],
+    "source_refs": {
+      "STL-P": "SRC-CLEMSON-SOILTEST",
+      "STL-K": "SRC-CLEMSON-SOILTEST"
+    },
+    "missing_source": []
+  },
+  "fixtures/beginner_grower.json": {
+    "sha256": "6f7d4dc4ebc9bf89480bc7bdd0940a9a62d984d24b54eae5ff8f324eb9a0558b",
+    "records": 1,
+    "fields": {
+      "$": [
+        "dict"
+      ],
+      "$.compost_available_cu_yd": [
+        "float"
+      ],
+      "$.compost_price_usd_per_cu_yd": [
+        "int"
+      ],
+      "$.crops_needed": [
+        "list"
+      ],
+      "$.crops_needed[]": [
+        "str"
+      ],
+      "$.name": [
+        "str"
+      ],
+      "$.plots": [
+        "list"
+      ],
+      "$.plots[]": [
+        "dict"
+      ],
+      "$.plots[].area_sqft": [
+        "int"
+      ],
+      "$.plots[].baseline": [
+        "dict"
+      ],
+      "$.plots[].baseline.inputs": [
+        "list"
+      ],
+      "$.plots[].baseline.inputs[]": [
+        "dict"
+      ],
+      "$.plots[].baseline.inputs[].amount_lb": [
+        "int"
+      ],
+      "$.plots[].baseline.inputs[].product_id": [
+        "str"
+      ],
+      "$.plots[].baseline.pesticide_applications": [
+        "int"
+      ],
+      "$.plots[].crop_last_year": [
+        "str"
+      ],
+      "$.plots[].crop_planned": [
+        "str"
+      ],
+      "$.plots[].crop_two_years_ago": [
+        "NoneType"
+      ],
+      "$.plots[].id": [
+        "str"
+      ],
+      "$.plots[].name": [
+        "str"
+      ],
+      "$.plots[].problems": [
+        "list"
+      ],
+      "$.plots[].soil_test": [
+        "dict"
+      ],
+      "$.plots[].soil_test.k_ppm": [
+        "int"
+      ],
+      "$.plots[].soil_test.organic_matter_pct": [
+        "float"
+      ],
+      "$.plots[].soil_test.p_ppm": [
+        "int"
+      ],
+      "$.plots[].soil_test.ph": [
+        "float"
+      ],
+      "$.plots[].soil_texture": [
+        "str"
+      ],
+      "$.price_overrides": [
+        "dict"
+      ]
+    },
+    "ids": [],
+    "source_refs": {},
+    "missing_source": []
+  },
+  "fixtures/demo_grower.json": {
+    "sha256": "b0186b2a4fc854eb60ae5aca2bbb80fa6bced690897b6d140d56e1364c6ea63c",
+    "records": 1,
+    "fields": {
+      "$": [
+        "dict"
+      ],
+      "$.compost_available_cu_yd": [
+        "float"
+      ],
+      "$.compost_price_usd_per_cu_yd": [
+        "int"
+      ],
+      "$.crops_needed": [
+        "list"
+      ],
+      "$.crops_needed[]": [
+        "str"
+      ],
+      "$.name": [
+        "str"
+      ],
+      "$.plots": [
+        "list"
+      ],
+      "$.plots[]": [
+        "dict"
+      ],
+      "$.plots[].area_sqft": [
+        "int"
+      ],
+      "$.plots[].baseline": [
+        "dict"
+      ],
+      "$.plots[].baseline.inputs": [
+        "list"
+      ],
+      "$.plots[].baseline.inputs[]": [
+        "dict"
+      ],
+      "$.plots[].baseline.inputs[].amount_lb": [
+        "int"
+      ],
+      "$.plots[].baseline.inputs[].product_id": [
+        "str"
+      ],
+      "$.plots[].baseline.pesticide_applications": [
+        "int"
+      ],
+      "$.plots[].crop_last_year": [
+        "str"
+      ],
+      "$.plots[].crop_planned": [
+        "str"
+      ],
+      "$.plots[].crop_two_years_ago": [
+        "str"
+      ],
+      "$.plots[].id": [
+        "str"
+      ],
+      "$.plots[].name": [
+        "str"
+      ],
+      "$.plots[].problems": [
+        "list"
+      ],
+      "$.plots[].problems[]": [
+        "str"
+      ],
+      "$.plots[].soil_test": [
+        "dict"
+      ],
+      "$.plots[].soil_test.k_ppm": [
+        "int"
+      ],
+      "$.plots[].soil_test.organic_matter_pct": [
+        "float"
+      ],
+      "$.plots[].soil_test.p_ppm": [
+        "int"
+      ],
+      "$.plots[].soil_test.ph": [
+        "float"
+      ],
+      "$.plots[].soil_texture": [
+        "str"
+      ],
+      "$.price_overrides": [
+        "dict"
+      ]
+    },
+    "ids": [],
+    "source_refs": {},
+    "missing_source": []
+  },
+  "fixtures/diverse_farm.json": {
+    "sha256": "a50ac7378a9b1f1cabf4e9f97c979c324fbc3b3db00ea047c7ca3ef5e8db874f",
+    "records": 1,
+    "fields": {
+      "$": [
+        "dict"
+      ],
+      "$.compost_available_cu_yd": [
+        "float"
+      ],
+      "$.compost_price_usd_per_cu_yd": [
+        "int"
+      ],
+      "$.crops_needed": [
+        "list"
+      ],
+      "$.crops_needed[]": [
+        "str"
+      ],
+      "$.name": [
+        "str"
+      ],
+      "$.plots": [
+        "list"
+      ],
+      "$.plots[]": [
+        "dict"
+      ],
+      "$.plots[].area_sqft": [
+        "int"
+      ],
+      "$.plots[].baseline": [
+        "dict"
+      ],
+      "$.plots[].baseline.inputs": [
+        "list"
+      ],
+      "$.plots[].baseline.inputs[]": [
+        "dict"
+      ],
+      "$.plots[].baseline.inputs[].amount_lb": [
+        "int"
+      ],
+      "$.plots[].baseline.inputs[].product_id": [
+        "str"
+      ],
+      "$.plots[].baseline.pesticide_applications": [
+        "int"
+      ],
+      "$.plots[].crop_last_year": [
+        "str"
+      ],
+      "$.plots[].crop_planned": [
+        "str"
+      ],
+      "$.plots[].crop_two_years_ago": [
+        "str"
+      ],
+      "$.plots[].id": [
+        "str"
+      ],
+      "$.plots[].name": [
+        "str"
+      ],
+      "$.plots[].problems": [
+        "list"
+      ],
+      "$.plots[].problems[]": [
+        "str"
+      ],
+      "$.plots[].soil_test": [
+        "dict"
+      ],
+      "$.plots[].soil_test.k_ppm": [
+        "int"
+      ],
+      "$.plots[].soil_test.organic_matter_pct": [
+        "float"
+      ],
+      "$.plots[].soil_test.p_ppm": [
+        "int"
+      ],
+      "$.plots[].soil_test.ph": [
+        "float"
+      ],
+      "$.plots[].soil_texture": [
+        "str"
+      ],
+      "$.price_overrides": [
+        "dict"
+      ]
+    },
+    "ids": [],
+    "source_refs": {},
+    "missing_source": []
+  },
+  "fixtures/high_input_grower.json": {
+    "sha256": "a073093cf51077cce762feceb713d78d4fd8bbcf10d644c39f178e3ff6cddd9c",
+    "records": 1,
+    "fields": {
+      "$": [
+        "dict"
+      ],
+      "$.compost_available_cu_yd": [
+        "int"
+      ],
+      "$.compost_price_usd_per_cu_yd": [
+        "int"
+      ],
+      "$.crops_needed": [
+        "list"
+      ],
+      "$.crops_needed[]": [
+        "str"
+      ],
+      "$.name": [
+        "str"
+      ],
+      "$.plots": [
+        "list"
+      ],
+      "$.plots[]": [
+        "dict"
+      ],
+      "$.plots[].area_sqft": [
+        "int"
+      ],
+      "$.plots[].baseline": [
+        "dict"
+      ],
+      "$.plots[].baseline.inputs": [
+        "list"
+      ],
+      "$.plots[].baseline.inputs[]": [
+        "dict"
+      ],
+      "$.plots[].baseline.inputs[].amount_lb": [
+        "int"
+      ],
+      "$.plots[].baseline.inputs[].product_id": [
+        "str"
+      ],
+      "$.plots[].baseline.pesticide_applications": [
+        "int"
+      ],
+      "$.plots[].crop_last_year": [
+        "str"
+      ],
+      "$.plots[].crop_planned": [
+        "str"
+      ],
+      "$.plots[].crop_two_years_ago": [
+        "str"
+      ],
+      "$.plots[].id": [
+        "str"
+      ],
+      "$.plots[].name": [
+        "str"
+      ],
+      "$.plots[].problems": [
+        "list"
+      ],
+      "$.plots[].problems[]": [
+        "str"
+      ],
+      "$.plots[].soil_test": [
+        "dict"
+      ],
+      "$.plots[].soil_test.k_ppm": [
+        "int"
+      ],
+      "$.plots[].soil_test.organic_matter_pct": [
+        "float"
+      ],
+      "$.plots[].soil_test.p_ppm": [
+        "int"
+      ],
+      "$.plots[].soil_test.ph": [
+        "float"
+      ],
+      "$.plots[].soil_texture": [
+        "str"
+      ],
+      "$.price_overrides": [
+        "dict"
+      ]
+    },
+    "ids": [],
+    "source_refs": {},
+    "missing_source": []
+  },
+  "research/source_notes.yaml": {
+    "sha256": "1395290205f494b67e7b937f859858f511ae0b146ae35285903279cb4b35f529",
+    "records": 122,
+    "fields": {
+      "$": [
+        "list"
+      ],
+      "$[]": [
+        "dict"
+      ],
+      "$[].id": [
+        "str"
+      ],
+      "$[].note": [
+        "str"
+      ],
+      "$[].page": [
+        "str"
+      ],
+      "$[].source": [
+        "str"
+      ],
+      "$[].topics": [
+        "list"
+      ],
+      "$[].topics[]": [
+        "str"
+      ],
+      "$[].verified": [
+        "bool"
+      ]
+    },
+    "ids": [
+      "NOTE-ROT-001",
+      "NOTE-ROT-002",
+      "NOTE-ROT-003",
+      "NOTE-ROT-004",
+      "NOTE-ROT-005",
+      "NOTE-ROT-006",
+      "NOTE-ROT-007",
+      "NOTE-ROT-008",
+      "NOTE-ROT-009",
+      "NOTE-ROT-010",
+      "NOTE-ROT-011",
+      "NOTE-ROT-012",
+      "NOTE-ROT-013",
+      "NOTE-ROT-014",
+      "NOTE-ROT-015",
+      "NOTE-INS-001",
+      "NOTE-INS-002",
+      "NOTE-INS-003",
+      "NOTE-INS-004",
+      "NOTE-INS-005",
+      "NOTE-INS-006",
+      "NOTE-FERT-001",
+      "NOTE-FERT-002",
+      "NOTE-FERT-003",
+      "NOTE-FERT-004",
+      "NOTE-FERT-005",
+      "NOTE-FERT-006",
+      "NOTE-OSU-001",
+      "NOTE-OSU-002",
+      "NOTE-OSU-003",
+      "NOTE-OSU-004",
+      "NOTE-OSU-005",
+      "NOTE-OSU-006",
+      "NOTE-OSU-007",
+      "NOTE-CC-001",
+      "NOTE-CC-002",
+      "NOTE-CC-003",
+      "NOTE-BSBC-001",
+      "NOTE-BSBC-002",
+      "NOTE-BSBC-003",
+      "NOTE-BSBC-004",
+      "NOTE-BSBC-005",
+      "NOTE-BSBC-006",
+      "NOTE-BSBC-007",
+      "NOTE-BSBC-008",
+      "NOTE-NRCS-001",
+      "NOTE-NRCS-002",
+      "NOTE-NRCS-003",
+      "NOTE-EB-001",
+      "NOTE-EB-002",
+      "NOTE-EB-003",
+      "NOTE-EB-004",
+      "NOTE-EB-005",
+      "NOTE-HW-001",
+      "NOTE-HW-002",
+      "NOTE-CW-001",
+      "NOTE-CW-002",
+      "NOTE-SB-001",
+      "NOTE-SB-002",
+      "NOTE-SB-003",
+      "NOTE-SVB-001",
+      "NOTE-SVB-002",
+      "NOTE-MBB-001",
+      "NOTE-INT-001",
+      "NOTE-INT-002",
+      "NOTE-INT-003",
+      "NOTE-INT-004",
+      "NOTE-INT-005",
+      "NOTE-INT-006",
+      "NOTE-SOU-001",
+      "NOTE-SOU-002",
+      "NOTE-SOU-003",
+      "NOTE-SOU-004",
+      "NOTE-SOU-005",
+      "NOTE-SOU-006",
+      "NOTE-SOU-007",
+      "NOTE-ROT-016",
+      "NOTE-ROT-017",
+      "NOTE-ROT-018",
+      "NOTE-ROT-019",
+      "NOTE-ROT-020",
+      "NOTE-ROT-021",
+      "NOTE-FERT-007",
+      "NOTE-INS-007",
+      "NOTE-INS-008",
+      "NOTE-BSBC-009",
+      "NOTE-CC-004",
+      "NOTE-CC-005",
+      "NOTE-CC-006",
+      "NOTE-CC-007",
+      "NOTE-CC-008",
+      "NOTE-CC-009",
+      "NOTE-CC-010",
+      "NOTE-CC-011",
+      "NOTE-CC-012",
+      "NOTE-CC-013",
+      "NOTE-CC-014",
+      "NOTE-CB-001",
+      "NOTE-CB-002",
+      "NOTE-FB-001",
+      "NOTE-FB-002",
+      "NOTE-HB-001",
+      "NOTE-HB-002",
+      "NOTE-OT-001",
+      "NOTE-OT-002",
+      "NOTE-WR-001",
+      "NOTE-RKN-001",
+      "NOTE-RKN-002",
+      "NOTE-RKN-003",
+      "NOTE-OKRA-001",
+      "NOTE-OKRA-002",
+      "NOTE-SP-001",
+      "NOTE-SP-002",
+      "NOTE-ENG-001",
+      "NOTE-ENG-002",
+      "NOTE-ENG-003",
+      "NOTE-ENG-004",
+      "NOTE-ENG-005",
+      "NOTE-ENG-006",
+      "NOTE-ENG-007",
+      "NOTE-ENG-008",
+      "NOTE-ENG-009"
+    ],
+    "source_refs": {
+      "NOTE-ROT-001": "SRC-SARE-ROTATION",
+      "NOTE-ROT-002": "SRC-SARE-ROTATION",
+      "NOTE-ROT-003": "SRC-SARE-ROTATION",
+      "NOTE-ROT-004": "SRC-SARE-ROTATION",
+      "NOTE-ROT-005": "SRC-SARE-ROTATION",
+      "NOTE-ROT-006": "SRC-SARE-ROTATION",
+      "NOTE-ROT-007": "SRC-SARE-ROTATION",
+      "NOTE-ROT-008": "SRC-SARE-ROTATION",
+      "NOTE-ROT-009": "SRC-SARE-ROTATION",
+      "NOTE-ROT-010": "SRC-SARE-ROTATION",
+      "NOTE-ROT-011": "SRC-SARE-ROTATION",
+      "NOTE-ROT-012": "SRC-SARE-ROTATION",
+      "NOTE-ROT-013": "SRC-SARE-ROTATION",
+      "NOTE-ROT-014": "SRC-SARE-ROTATION",
+      "NOTE-ROT-015": "SRC-SARE-ROTATION",
+      "NOTE-INS-001": "SRC-SARE-ROTATION",
+      "NOTE-INS-002": "SRC-SARE-ROTATION",
+      "NOTE-INS-003": "SRC-SARE-ROTATION",
+      "NOTE-INS-004": "SRC-SARE-ROTATION",
+      "NOTE-INS-005": "SRC-SARE-ROTATION",
+      "NOTE-INS-006": "SRC-SARE-ROTATION",
+      "NOTE-FERT-001": "SRC-SARE-ROTATION",
+      "NOTE-FERT-002": "SRC-SARE-ROTATION",
+      "NOTE-FERT-003": "SRC-SARE-ROTATION",
+      "NOTE-FERT-004": "SRC-SARE-ROTATION",
+      "NOTE-FERT-005": "SRC-SARE-ROTATION",
+      "NOTE-FERT-006": "SRC-SARE-ROTATION",
+      "NOTE-OSU-001": "SRC-OSU-EM9235",
+      "NOTE-OSU-002": "SRC-OSU-EM9235",
+      "NOTE-OSU-003": "SRC-OSU-EM9235",
+      "NOTE-OSU-004": "SRC-OSU-EM9235",
+      "NOTE-OSU-005": "SRC-OSU-EM9235",
+      "NOTE-OSU-006": "SRC-OSU-EM9235",
+      "NOTE-OSU-007": "SRC-OSU-EM9235",
+      "NOTE-CC-001": "SRC-SARE-MCCP",
+      "NOTE-CC-002": "SRC-SARE-MCCP",
+      "NOTE-CC-003": "SRC-SARE-MCCP",
+      "NOTE-BSBC-001": "SRC-SARE-BSBC",
+      "NOTE-BSBC-002": "SRC-SARE-BSBC",
+      "NOTE-BSBC-003": "SRC-SARE-BSBC",
+      "NOTE-BSBC-004": "SRC-SARE-BSBC",
+      "NOTE-BSBC-005": "SRC-SARE-BSBC",
+      "NOTE-BSBC-006": "SRC-SARE-BSBC",
+      "NOTE-BSBC-007": "SRC-SARE-BSBC",
+      "NOTE-BSBC-008": "SRC-SARE-BSBC",
+      "NOTE-NRCS-001": "SRC-NRCS-328",
+      "NOTE-NRCS-002": "SRC-NRCS-328",
+      "NOTE-NRCS-003": "SRC-NRCS-328",
+      "NOTE-EB-001": "SRC-UMN-EARLYBLIGHT",
+      "NOTE-EB-002": "SRC-UMN-EARLYBLIGHT",
+      "NOTE-EB-003": "SRC-UMN-EARLYBLIGHT",
+      "NOTE-EB-004": "SRC-ISU-TOMATOBLIGHT",
+      "NOTE-EB-005": "SRC-CSU-EARLYBLIGHT",
+      "NOTE-HW-001": "SRC-UCIPM-HORNWORM",
+      "NOTE-HW-002": "SRC-ILL-HORNWORM",
+      "NOTE-CW-001": "SRC-UNH-CABBAGEWORM",
+      "NOTE-CW-002": "SRC-USU-CABBAGEWORM",
+      "NOTE-SB-001": "SRC-UMN-SQUASHBUG",
+      "NOTE-SB-002": "SRC-UMN-SQUASHBUG",
+      "NOTE-SB-003": "SRC-NMSU-SQUASHBUG",
+      "NOTE-SVB-001": "SRC-UGA-SVB",
+      "NOTE-SVB-002": "SRC-UCONN-SVB",
+      "NOTE-MBB-001": "SRC-CORNELL-MBB",
+      "NOTE-INT-001": "SRC-UCONN-ROTATION",
+      "NOTE-INT-002": "SRC-UCONN-ROTATION",
+      "NOTE-INT-003": "SRC-UCONN-ROTATION",
+      "NOTE-INT-004": "SRC-UCONN-ROTATION",
+      "NOTE-INT-005": "SRC-UCONN-ROTATION",
+      "NOTE-INT-006": "SRC-UCONN-ROTATION",
+      "NOTE-SOU-001": "SRC-CLEMSON-ROTATION",
+      "NOTE-SOU-002": "SRC-CLEMSON-ROTATION",
+      "NOTE-SOU-003": "SRC-CLEMSON-ROTATION",
+      "NOTE-SOU-004": "SRC-CLEMSON-ROTATION",
+      "NOTE-SOU-005": "SRC-CLEMSON-ROTATION",
+      "NOTE-SOU-006": "SRC-CLEMSON-ROTATION",
+      "NOTE-SOU-007": "SRC-WSU-ROTATION",
+      "NOTE-ROT-016": "SRC-SARE-ROTATION",
+      "NOTE-ROT-017": "SRC-SARE-ROTATION",
+      "NOTE-ROT-018": "SRC-SARE-ROTATION",
+      "NOTE-ROT-019": "SRC-SARE-ROTATION",
+      "NOTE-ROT-020": "SRC-SARE-ROTATION",
+      "NOTE-ROT-021": "SRC-SARE-ROTATION",
+      "NOTE-FERT-007": "SRC-SARE-ROTATION",
+      "NOTE-INS-007": "SRC-SARE-ROTATION",
+      "NOTE-INS-008": "SRC-SARE-ROTATION",
+      "NOTE-BSBC-009": "SRC-SARE-BSBC",
+      "NOTE-CC-004": "SRC-SARE-MCCP",
+      "NOTE-CC-005": "SRC-SARE-MCCP",
+      "NOTE-CC-006": "SRC-SARE-MCCP",
+      "NOTE-CC-007": "SRC-SARE-MCCP",
+      "NOTE-CC-008": "SRC-SARE-MCCP",
+      "NOTE-CC-009": "SRC-SARE-MCCP",
+      "NOTE-CC-010": "SRC-SARE-MCCP",
+      "NOTE-CC-011": "SRC-SARE-MCCP",
+      "NOTE-CC-012": "SRC-SARE-MCCP",
+      "NOTE-CC-013": "SRC-EORGANIC-BUCKWHEAT",
+      "NOTE-CC-014": "SRC-EORGANIC-BUCKWHEAT",
+      "NOTE-CB-001": "SRC-UVM-CUCBEETLE",
+      "NOTE-CB-002": "SRC-UVM-CUCBEETLE",
+      "NOTE-FB-001": "SRC-UMN-FLEABEETLE",
+      "NOTE-FB-002": "SRC-UMN-FLEABEETLE",
+      "NOTE-HB-001": "SRC-WVU-HARLEQUIN",
+      "NOTE-HB-002": "SRC-WVU-HARLEQUIN",
+      "NOTE-OT-001": "SRC-UMASS-THRIPS",
+      "NOTE-OT-002": "SRC-UMASS-THRIPS",
+      "NOTE-WR-001": "SRC-WSU-WHITEROT",
+      "NOTE-RKN-001": "SRC-CLEMSON-RKN",
+      "NOTE-RKN-002": "SRC-CLEMSON-RKN",
+      "NOTE-RKN-003": "SRC-CLEMSON-RKN",
+      "NOTE-OKRA-001": "SRC-CLEMSON-OKRA",
+      "NOTE-OKRA-002": "SRC-CLEMSON-OKRA",
+      "NOTE-SP-001": "SRC-CLEMSON-SWEETPOTATO",
+      "NOTE-SP-002": "SRC-CLEMSON-SWEETPOTATO",
+      "NOTE-ENG-001": "SRC-CLEMSON-SOILTEST",
+      "NOTE-ENG-002": "SRC-SERA6-FS5",
+      "NOTE-ENG-003": "SRC-CLEMSON-FERTVEG",
+      "NOTE-ENG-004": "SRC-CLEMSON-FERTVEG",
+      "NOTE-ENG-005": "SRC-UGA-C963",
+      "NOTE-ENG-006": "SRC-UW-NCREDIT",
+      "NOTE-ENG-007": "SRC-WSU-COMPOST",
+      "NOTE-ENG-008": "SRC-UCONN-LIME",
+      "NOTE-ENG-009": "SRC-DTN-PRICES"
+    },
+    "missing_source": []
+  },
+  "rule_reviews/sources.yaml": {
+    "sha256": "deea39879b868c3cf8515a18e3fa566d34a5f376e0190423c90f58969e6af8df",
+    "records": 40,
+    "fields": {
+      "$": [
+        "list"
+      ],
+      "$[]": [
+        "dict"
+      ],
+      "$[].id": [
+        "str"
+      ],
+      "$[].publisher": [
+        "str"
+      ],
+      "$[].title": [
+        "str"
+      ],
+      "$[].url": [
+        "str"
+      ],
+      "$[].verified": [
+        "bool"
+      ],
+      "$[].year": [
+        "NoneType",
+        "int"
+      ]
+    },
+    "ids": [
+      "SRC-PLACEHOLDER",
+      "SRC-SARE-ROTATION",
+      "SRC-SARE-BSBC",
+      "SRC-SARE-MCCP",
+      "SRC-NRCS-328",
+      "SRC-OSU-EM9235",
+      "SRC-UMN-EARLYBLIGHT",
+      "SRC-ISU-TOMATOBLIGHT",
+      "SRC-CSU-EARLYBLIGHT",
+      "SRC-UCIPM-HORNWORM",
+      "SRC-ILL-HORNWORM",
+      "SRC-UNH-CABBAGEWORM",
+      "SRC-USU-CABBAGEWORM",
+      "SRC-UMN-SQUASHBUG",
+      "SRC-NMSU-SQUASHBUG",
+      "SRC-UCONN-SVB",
+      "SRC-UGA-SVB",
+      "SRC-CORNELL-MBB",
+      "SRC-UCONN-ROTATION",
+      "SRC-CLEMSON-ROTATION",
+      "SRC-WSU-ROTATION",
+      "SRC-CLEMSON-RKN",
+      "SRC-CLEMSON-OKRA",
+      "SRC-CLEMSON-SWEETPOTATO",
+      "SRC-UVM-CUCBEETLE",
+      "SRC-UMN-FLEABEETLE",
+      "SRC-WVU-HARLEQUIN",
+      "SRC-UMASS-THRIPS",
+      "SRC-WSU-WHITEROT",
+      "SRC-EORGANIC-BUCKWHEAT",
+      "SRC-CLEMSON-SOILTEST",
+      "SRC-CLEMSON-FERTVEG",
+      "SRC-CLEMSON-PH",
+      "SRC-SERA6-FS5",
+      "SRC-UGA-C963",
+      "SRC-UW-NCREDIT",
+      "SRC-WSU-COMPOST",
+      "SRC-UCONN-LIME",
+      "SRC-DTN-PRICES",
+      "SRC-GROWER-LAB-REPORT"
+    ],
+    "source_refs": {},
+    "missing_source": [
+      "SRC-PLACEHOLDER",
+      "SRC-SARE-ROTATION",
+      "SRC-SARE-BSBC",
+      "SRC-SARE-MCCP",
+      "SRC-NRCS-328",
+      "SRC-OSU-EM9235",
+      "SRC-UMN-EARLYBLIGHT",
+      "SRC-ISU-TOMATOBLIGHT",
+      "SRC-CSU-EARLYBLIGHT",
+      "SRC-UCIPM-HORNWORM",
+      "SRC-ILL-HORNWORM",
+      "SRC-UNH-CABBAGEWORM",
+      "SRC-USU-CABBAGEWORM",
+      "SRC-UMN-SQUASHBUG",
+      "SRC-NMSU-SQUASHBUG",
+      "SRC-UCONN-SVB",
+      "SRC-UGA-SVB",
+      "SRC-CORNELL-MBB",
+      "SRC-UCONN-ROTATION",
+      "SRC-CLEMSON-ROTATION",
+      "SRC-WSU-ROTATION",
+      "SRC-CLEMSON-RKN",
+      "SRC-CLEMSON-OKRA",
+      "SRC-CLEMSON-SWEETPOTATO",
+      "SRC-UVM-CUCBEETLE",
+      "SRC-UMN-FLEABEETLE",
+      "SRC-WVU-HARLEQUIN",
+      "SRC-UMASS-THRIPS",
+      "SRC-WSU-WHITEROT",
+      "SRC-EORGANIC-BUCKWHEAT",
+      "SRC-CLEMSON-SOILTEST",
+      "SRC-CLEMSON-FERTVEG",
+      "SRC-CLEMSON-PH",
+      "SRC-SERA6-FS5",
+      "SRC-UGA-C963",
+      "SRC-UW-NCREDIT",
+      "SRC-WSU-COMPOST",
+      "SRC-UCONN-LIME",
+      "SRC-DTN-PRICES",
+      "SRC-GROWER-LAB-REPORT"
+    ]
+  }
+}

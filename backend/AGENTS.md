@@ -1,0 +1,3 @@
+# Backend scoped instructions (starter helper)
+
+Follow root `AGENTS.md`, `docs/ARCHITECTURE.md` and `docs/PRODUCT.md`. Python FastAPI with synchronous SQLAlchemy 2.x + psycopg 3, PostgreSQL and Alembic. Pydantic owns API validation. Prefer feature-scoped modules as functionality grows; only scaffold currently needed code. Handle sessions, ownership and CSRF securely for real auth; never simulate logged-in state. No scientific quantities unless precise rule versions have actual documented independent review and validated scope. Do not infer embedding dimensions or silently call Gemini/providers without team decisions and credentials. Handle missing data with explicit unavailable/unknown status. First build M-001 liveness/proxy/DB foundation and real smoke tests.

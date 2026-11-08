@@ -1,0 +1,34 @@
+{
+  "AGENTS.md": {
+    "path": "AGENTS.md",
+    "sha256": "8ec894299df0598a0f65e72b704254d576d5b9115fef4a88ffe871c3457bd2ea"
+  },
+  "ARCHITECTURE(1).md": {
+    "path": "docs/ARCHITECTURE.md",
+    "sha256": "834c73ba7079b0bc5a4e84bfafd0e953f0a3ce3d7262d609c5f076547d68eb52"
+  },
+  "DESIGN(1).md": {
+    "path": "docs/DESIGN.md",
+    "sha256": "25d1ea7a9a23f39b208638199a27bdaf2fbd3eae6c17ca1390a11f476b6a2eb4"
+  },
+  "PRODUCT(1).md": {
+    "path": "docs/PRODUCT.md",
+    "sha256": "11e7e9e05e7cd0590c45a068d44ce7c5e81aa3babcca3403b3dabe2c089e812c"
+  },
+  "LANDING_DESIGN.md": {
+    "path": "docs/LANDING_DESIGN.md",
+    "sha256": "9b5e3fbcd90975b689e75a6c71bc76cb78c7d33663d4b436abb9034ecdd96b18"
+  },
+  "DEVELOPMENT.md": {
+    "path": "docs/DEVELOPMENT.md",
+    "sha256": "56e527479380717779f345cfeba9369aa5cbcd9c0ce1e00a457c89edcc5abca2"
+  },
+  "DATA_INGESTION.md": {
+    "path": "docs/DATA_INGESTION.md",
+    "sha256": "2765ca350cc26bbfaef2606e63bf6e81fcbd7120d59808b6e843e9fd0359449a"
+  },
+  "curated_inventory.json": {
+    "path": "docs/curated_inventory.json",
+    "sha256": "b7a42206300de97e929c49fe21d432a8a86934262a6e615b0b23a12a2c547857"
+  }
+}
